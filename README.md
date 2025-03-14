@@ -42,12 +42,14 @@ git clone git@github.com:joeywhelan/elastic-crosscluster.git && cd elastic-cross
 ./start.sh
 ```
 ### Nodejs CCR Demo
+- Update the WEST_IP var to the IP address assigned to the westcluster-es-http service
 ```bash
 cd src/javascript
 npm install
 node ccr_test.js
 ```
 ### Python CCS Demo
+- Update the WEST_IP var to the IP address assigned to the westcluster-es-http service
 ```bash
 cd src/python
 pip install elasticsearch
