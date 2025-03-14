@@ -1,4 +1,4 @@
-# Elastic Cross-cluster Operations
+# Elastic Cross-Cluster Operations
 ## Contents
 1.  [Summary](#summary)
 2.  [Architecture](#architecture)
