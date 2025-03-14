@@ -1,6 +1,6 @@
 #!/bin/bash
 # Usage: start.sh
-# Description:  Builds an ECK cluster in Kind 
+# Description:  Orchestrates the build of 2 ES clusters: one in K8s, the other in Docker.
 
 echo -e "\n*** Deploy West Cluster ***"
 cd west
