@@ -25,6 +25,7 @@ This is a K8s + Docker demonstration of cross-cluster functionality available in
 - Docker
 - Docker Compose
 - Kind
+- helm
 - kubectl
 - jq
 - python3
