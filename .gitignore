@@ -1,0 +1,4 @@
+misc/
+*.crt
+.venv
+node_modules
