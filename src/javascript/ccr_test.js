@@ -42,5 +42,3 @@ console.log('\n*** East CCR ***');
 for (const hit of resp.hits.hits) {
     console.log(hit._source);
 }
-
- 
