@@ -24,6 +24,7 @@ This is a K8s + Docker demonstration of cross-cluster functionality available in
 ## Prerequisites <a name="prerequisites"></a>
 - Docker
 - Docker Compose
+- go
 - Kind
 - helm
 - kubectl
