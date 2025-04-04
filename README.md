@@ -22,6 +22,7 @@ This is a K8s + Docker demonstration of cross-cluster functionality available in
 
 
 ## Prerequisites <a name="prerequisites"></a>
+- Linux OS - Mac users have reported issues that appear to be docker-network related.
 - Docker
 - Docker Compose
 - go
