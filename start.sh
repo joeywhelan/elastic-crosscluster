@@ -88,4 +88,4 @@ json=$(jq -nc \
 WEST_ELASTIC_IP=$(kubectl get service westcluster-es-http -o=jsonpath='{.status.loadBalancer.ingress[0].ip}')
 curl -s -k -u "elastic:elastic" -X PUT "https://$WEST_ELASTIC_IP:9200/_cluster/settings" \
   -H "Content-Type: application/json" \
-  -d "$json"
+  -d "$json" > /dev/null

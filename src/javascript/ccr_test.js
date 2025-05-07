@@ -1,7 +1,7 @@
 import { Client } from '@elastic/elasticsearch';
 import fs from 'node:fs';
 
-const WEST_IP = '172.18.0.4'; //change this to match the external IP assigned to westcluster-es-http
+const WEST_IP = '172.18.0.5'; //change this to match the external IP assigned to westcluster-es-http
 const EAST_IP = '192.168.20.2';
 
 const eastClient = new Client({ 
